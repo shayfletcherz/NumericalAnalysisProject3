@@ -1,4 +1,10 @@
 
+#----------------------
+# Shay Fletcher     318727641
+# Nika Tatikishvili 321735433
+# https://github.com/shayfletcherz/NumericalAnalysisProject3.git
+#----------------------
+
 #יצירת מטריצת אפסים
 def zeroMatrix(row, col):
     c = []
