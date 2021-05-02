@@ -231,4 +231,22 @@ def calcGaussSeidel(matrix, vec):
     guess(G, H, vec)
 
 
-#def main():
+def main():
+    matrix = [[4, 2, 0],
+         [2, 10, 4],
+         [0, 4, 5]]
+
+    vec = [[2],
+           [6],
+           [5]]
+
+    if dominantDiagonal(matrix) is False:
+        print("CAN NOT CALCULATE - THERE IS NO DOMINANT DIAGONAL")
+    print("Enter 1 for Jaacobi and 2 For Gauss - Seidel", end="")
+    num = input()
+    if num is '1'
+        calcJaacobi(matrix, vec)
+    elif num is '2'
+        calcGaussSeidel(matrix, vec)
+
+main()
