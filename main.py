@@ -244,9 +244,9 @@ def main():
         print("CAN NOT CALCULATE - THERE IS NO DOMINANT DIAGONAL")
     print("Enter 1 for Jaacobi and 2 For Gauss - Seidel", end="")
     num = input()
-    if num is '1'
+    if num is '1':
         calcJaacobi(matrix, vec)
-    elif num is '2'
+    elif num is '2':
         calcGaussSeidel(matrix, vec)
 
 main()
